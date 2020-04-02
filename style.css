@@ -1,0 +1,357 @@
+/*=================================*/
+/*==== default codding scetion ====*/
+/*=================================*/
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:justify;
+}
+.over-flow{
+    overflow:hidden;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight:normal;
+    padding:10px;
+    background-colo:;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    text-align:;
+}
+p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size:15px;
+    margin:10px 10px 30px 10px;
+    line-height:150%;
+}
+ul{
+    list-style-type:none;
+}
+li{
+
+}
+a{
+    text-decoration:none;
+}
+.all-wrap{
+    widows: 100%;
+}
+.wrap{
+    width:960px;
+    margin:0 auto;
+    background-color:gray;
+}
+.float-left{
+    float:left;
+}
+.float-right{
+    float:right;
+}
+
+/*=================================*/
+/*==== header menu scetion ========*/
+/*=================================*/
+.menu{
+
+}
+.menu ul{
+    background-color:black;
+    padding-bottom:;
+    height:60px;
+}
+.menu ul li{
+    background-color:black;
+    float:left;
+    margin-top:10px;
+    margin-bottom:10px;
+    position:relative;
+   
+
+}
+.menu ul li:hover{
+    border-right:1px solid rgb(37, 37, 37);
+    border-left:1px solid rgb(19, 19, 19);
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.menu ul li:last-child{
+    border-right:none;
+
+}
+.menu ul li:last-child{
+    border-left:none;
+
+}
+
+
+.menu ul li ul{
+    position:absolute;
+    left:-9999999px;
+
+}
+.menu ul li:hover ul{
+    left:0px;
+    transition:0.1s all ease;
+}
+.menu ul li ul li{
+    margin-top:0px;
+    margin-bottom:0px;
+    width:125px;
+    position:relative;
+}
+.menu ul li ul li:hover{
+    margin-top:0px;
+    margin-bottom:0px;
+    border-left:none;
+    border-right:none;
+    border-bottom:2px solid white;
+   
+}
+.menu ul li ul li a{
+
+}
+.menu ul li ul li a:hover{
+
+}
+
+
+.menu ul li ul li ul{
+    position:absolute;
+    top:-999999999px;
+}
+.menu ul li ul li:hover ul{
+    top:0px;
+    left:120px;
+}
+
+.menu ul li a{
+    padding:10px 30px;
+    display:block;
+    color:rgb(105, 102, 102);
+}
+.menu ul li a:hover{
+    color:white;
+    transition:0.6s all ease;
+    -moz-transition:0.6s all ease;
+    -webkit-transition:0.6s all ease;
+    -o-transition:0.6s all ease;
+    display:block;
+    
+}
+.menu ul li a:active{
+    color:red;
+}
+/*=================================*/
+/*==== header menu one scetion ======*/
+/*=================================*/
+.bg{
+    background:url(img/ahsan-manzil-full-view.jpg) no-repeat;
+    background-size: 1125px 361px;
+}
+.menu-one{
+
+}
+.menu-one ul{
+    background-color:black;
+    height:50px;
+    margin-top:300px;
+    opacity:0.7
+}
+.menu-one ul li{
+    float:left;
+
+}
+.menu-one ul li:hover{
+   
+
+}
+.menu-one ul li a{
+    padding:13px;
+    display:block;
+    color:rgb(99, 96, 96);
+}
+.menu-one ul li a:hover{
+    color:white;
+    border-top:2px solid white;
+}
+.menu-one ul li a:active{}
+.srchicon{
+}
+.srchicon{
+    padding-top:12px;
+    
+}
+.srchicon input{
+    border-radius:3px;
+    border:none;
+    padding:3px;
+}
+.srchicon input[type="submit"]{
+    border-radius:3px;
+    border:none;
+    cursor:pointer;
+    margin-right:5px;
+}
+.srchicon input[type="submit"]:hover{
+    background-color:rgb(10, 10, 10);
+    color:white;
+    border:1px solid white;
+    padding:2px;
+}
+
+/*=================================*/
+/*======= Content scetion =========*/
+/*=================================*/
+.content-left{
+    width:200px;
+    background-color:rgb(99, 253, 132);
+    
+}
+.content-left ul{
+    margin-bottom:10px;
+}
+.content-left ul li{
+    margin-left:10px ;
+}
+.content-left ul li a{
+    color:rgb(88, 45, 45);
+    line-height:21px;
+}
+.content-left ul li a:hover{
+    color:red;
+}
+.content-left h2,.content-middle h2,.content-right h2{
+    margin-top:5px;
+    background-color:green;
+    margin-bottom:20px;
+}
+.content-middle{
+    width:560px;
+    background-color:rgb(236, 234, 238);
+   
+}
+.content-middle h2{
+    width:540px;
+    background:url(img/3-bar-menu.png)no-repeat 8px 7px rgb(173, 173, 173);
+    background-size:25px 25px;
+    padding:0px 1px 10px 37px;
+    margin-top:20px;
+    height:30px;
+    color:rgb(44, 44, 44);
+
+}
+.content-right{
+    width:200px;
+    background-color:burlywood;
+}
+.content-right p{
+    margin:3px 7px;
+    
+}
+.content-right input{
+    padding:3px;
+    border:none;
+    margin:3px;
+    border-radius:5px;
+}
+.content-right input[type="submit"]:hover{
+    background-color:green;
+    color:white;
+    cursor:pointer;
+}
+.content-right ul{
+    margin-bottom:8px;
+}
+
+.content-right ul li{
+    margin-left:10px;
+}
+.content-right ul li a{
+    color:rgb(31, 25, 25);
+    line-height:21px;
+}
+.content-right ul li a:hover{
+    color:rgb(253, 242, 242);
+}
+.block{
+    background:url(img/quote.png)no-repeat 7px 11px;
+    background-size:35px 49px;
+    margin:20px 10px 20px 40px;
+    color:rgba(105, 1, 1, 0.856);
+    padding:20px 10px 15px 45px;
+    border-left:5px solid red;
+    background-color:rgb(199, 193, 193);
+    font-family: 'Lobster', cursive;
+}
+.quote blockquote{
+}
+
+/*=================================*/
+/*======= Footer top scetion ======*/
+/*=================================*/
+.foot-top{
+    background-color:rgb(53, 52, 52);
+    width:960px;
+    padding:0px 0px 0px 0px ;
+    
+}
+.foot-top h2{
+    border-bottom:2px solid white;
+    margin-right:10px;
+}
+.foot-top ul{
+    padding:10px 0px 20px 0px;
+}
+.foot-top ul li{
+    margin-left:5px;
+}
+.foot-top ul li a{
+    color:white;
+    line-height:20px;
+    margin:px 0px 0px 0px;
+    padding:px px;
+    display:block;
+}
+.foot-top ul li a:hover{
+    color:orange;
+}
+.foot-left{
+    width:320px;
+
+}
+.foot-middle{
+    width:320px;
+}
+.foot-right{
+    width:320px;
+    margin-top:px;
+}
+.foot-left h2{
+}
+.foot-right img{
+    width:40px;
+    margin-top:5px;
+    padding:5px;
+}
+
+
+/*=================================*/
+/*====== Footer bottom scetion ====*/
+/*=================================*/
+
+.foot-bottom{
+    background-color:orange;
+    text-align:center;
+    
+}
+.foot-bottom p{
+    margin-bottom:0px;
+    padding:0px 10px 10px 10px;
+}
